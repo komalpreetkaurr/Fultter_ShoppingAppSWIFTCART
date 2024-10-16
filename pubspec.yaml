@@ -1,0 +1,172 @@
+name: shopping_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  device_preview: ^1.1.0
+  google_fonts: ^6.1.0
+  google_nav_bar: ^5.0.6
+  flutter_speed_dial: ^7.0.0
+  flutter_staggered_grid_view: ^0.7.0
+  provider: ^6.1.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      - image/logo-transparent-png.png
+      - image/logo-no-background.png
+      - image/IMG-20240204-WA0004-removebg-preview.png
+      - image/IMG-20240204-WA0005-removebg-preview.png
+      - image/IMG-20240204-WA0006-removebg-preview.png
+      - image/5-removebg-preview.png
+      - image/2-removebg-preview.png
+      - image/3-removebg-preview.png
+      - image/IMG-20240204-WA0010-removebg-preview.png
+      - image/IMG-20240204-WA0012-removebg-preview.png
+      - image/IMG-20240204-WA0008-removebg-preview.png
+      - image/IMG-20240204-WA0003-removebg-preview.png
+      - image/images-removebg-preview.png
+      - image/6-3-removebg-preview.png
+  #   for women
+      - imgw/71fQnABAhdL._AC_UF350_350_QL80_-removebg-preview.png
+      - imgw/73a76ad86e23d82400c02bef5ba60cb3_tn-removebg-preview.png
+      - imgw/2834efdb7b27b895a8a297ae6d13ffb1-removebg-preview.png
+      - imgw/acy1307_1_-removebg-preview.png
+      - imgw/black-lehenga-choli-600x600-removebg-preview.png
+      - imgw/c256c240307523da88e3897ab63dc09f-removebg-preview.png
+      - imgw/dark-red-punjabi-style-dhoti-salwar-kameez-ft402023-removebg-preview.png
+      - imgw/de6ff11814c69e12537aa4d63454ec09-removebg-preview.png
+      - imgw/edi-min-removebg-preview.png
+      - imgw/images__1_-removebg-preview.png
+      - imgw/images-removebg-preview.png
+      - imgw/online-min-removebg-preview.png
+  #   for men wear
+      - imgm/01f566bf1f88788b55b1c41683ba6dfd-removebg-preview.png
+      - imgm/89ddc1feed1287d7cc733eaea60eebee-removebg-preview.png
+      - imgm/a5e4795109ee7a24c054d0eb8c53bfa4-removebg-preview.png
+      - imgm/b810614e1b4913bf6d2d0c807af4cb46-removebg-preview.png
+      - imgm/groom-nehru-jacket-removebg-preview.png
+      - imgm/images__2_-removebg-preview.png
+      - imgm/images__3_-removebg-preview.png
+      - imgm/images__14_-removebg-preview.png
+      - imgm/Interesting-Facts-About-Mens-Fashion-740x500-5_5f5b31603d058-removebg-preview.png
+      - imgm/pastel-wedding-dress-for-men-6-removebg-preview.png
+      - imgm/peach-color-art-silk-fabric-digital-print-sherwani-95658-308x424-removebg-preview.png
+      - imgm/shackets-data-removebg-preview.png
+  #  for acessories
+      - imga/accessories-removebg-preview.png
+      - imga/download__1_-removebg-preview.png
+      - imga/download-removebg-preview.png
+      - imga/images__10_-removebg-preview.png
+      - imga/images__11_-removebg-preview.png
+      - imga/images__12_-removebg-preview.png
+      - imga/images__13_-removebg-preview.png
+      - imga/pexels-photo-322207-removebg-preview.png
+  # for foot wear
+      - imgf/51Ykk5s9wJL._AC_UY1000_-removebg-preview.png
+      - imgf/61ORvIRtSyL._AC_UY1000_-removebg-preview.png
+      - imgf/c6bb6804-6e44-440f-84f0-6a5bf2128319.__CR0_0_1000_1000_PT0_SX300_V1___-removebg-preview.png
+      - imgf/download__2_-removebg-preview.png
+      - imgf/download__3_-removebg-preview.png
+      - imgf/download__4_-removebg-preview.png
+      - imgf/images__15_-removebg-preview.png
+      - imgf/images__16_-removebg-preview.png
+# for home textile
+      - imgh/download (5).jpg
+      - imgh/download (6).jpg
+      - imgh/download (7).jpg
+      - imgh/download (8).jpg
+      - imgh/download (9).jpg
+      - imgh/download (10).jpg
+      - imgh/images (17).jpg
+      - imgh/images (18).jpg
+  # for kids wear
+      - imgk/6b0627f99145e0bfa4a745cc443a2ee4-removebg-preview.png
+      - imgk/17775610102023-Off-White-Art-Silk-Kids-Indo-Western-Suit-removebg-preview.png
+      - imgk/ff46d73e5c9fb9810c970f0a8ffb1713-removebg-preview.png
+      - imgk/gw0017-rjs00770_-thumb-removebg-preview.png
+      - imgk/images__4_-removebg-preview.png
+      - imgk/images__5_-removebg-preview.png
+      - imgk/images__6_-removebg-preview.png
+      - imgk/images__7_-removebg-preview.png
+      - imgk/images__8_-removebg-preview.png
+      - imgk/images__9_-removebg-preview.png
+      - imgk/istockphoto-1294345604-612x612-removebg-preview.png
+      - imgk/p7-2-removebg-preview.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
